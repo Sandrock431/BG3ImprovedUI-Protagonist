@@ -171,7 +171,9 @@
 			<DataTrigger Binding="{Binding IDString}" Value="Vanguard">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/Vanguard.png"/>
 			</DataTrigger>
-			<!--EDIT HERE-->
+			<DataTrigger Binding="{Binding IDString}" Value="Protagonist">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Protagonist/ClassIcons/Protagonist.png"/>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 
@@ -223,7 +225,9 @@
 			<DataTrigger Binding="{Binding IDString}" Value="Vanguard">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/hotbar/Vanguard_hotbar.png"/>
 			</DataTrigger>
-			<!--EDIT HERE-->
+			<DataTrigger Binding="{Binding IDString}" Value="Protagonist">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Protagonist/ClassIcons/hotbar/Protagonist_hotbar.png"/>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 
